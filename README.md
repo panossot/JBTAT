@@ -11,25 +11,25 @@ The innovative part of JBTAT (Known as EAT for the JBOSS Servers) is creating th
 Testing the Master JBoss Threads Branch
 ---------------------------------------
 1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.
-2. Build and run the jboss threads additional testsuite activating the master profile (-Dmaster).
+2. Build and run the jboss threads additional testsuite activating the master profile (mvn clean install -Dmaster).
 
 
 Testing the 2.2 JBoss Threads Branch
 ---------------------------------------
 1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.
-2. Build and run the jboss threads additional testsuite activating the 2.2 profile (-D2.2).
+2. Build and run the jboss threads additional testsuite activating the 2.2 profile (mvn clean install -D2.2).
 
 
 Testing the 2.1 JBoss Threads Branch
 ---------------------------------------
 1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.
-2. Build and run the jboss threads additional testsuite activating the 2.1 profile (-D2.1).
+2. Build and run the jboss threads additional testsuite activating the 2.1 profile (mvn clean install -D2.1).
 
 
 Testing the 1.0.0.GA JBoss Threads Release
 -------------------------------------------
 1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.
-2. Build and run the jboss threads additional testsuite activating the 1.0.0.GA profile (-D1.0.0.GA).
+2. Build and run the jboss threads additional testsuite activating the 1.0.0.GA profile (mvn clean install -D1.0.0.GA).
 
 
 # License 
