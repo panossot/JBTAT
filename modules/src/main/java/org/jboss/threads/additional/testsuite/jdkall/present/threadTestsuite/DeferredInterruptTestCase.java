@@ -31,7 +31,7 @@ import junit.framework.TestCase;
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>
  */
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java","modules/testcases/jdkAll/2.2/threadTestsuite/src/main/java#2.2.2.Final"})
+//@apAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java","modules/testcases/jdkAll/2.2/threadTestsuite/src/main/java#2.2.2.Final"})
 public class DeferredInterruptTestCase extends TestCase {
 
     public void testDeferral() throws Exception {
@@ -42,14 +42,14 @@ public class DeferredInterruptTestCase extends TestCase {
         final CountDownLatch latch2 = new CountDownLatch(1);
         final JBossThread thread = new JBossThread(new Runnable() {
             public void run() {
+                Thread.interrupted();
                 latch1.countDown();
                 LockSupport.parkNanos(3000000000L);
                 delivered0.set(Thread.interrupted());
                 JBossThread.executeWithInterruptDeferred(new Runnable() {
                     public void run() {
                         latch2.countDown();
-                        LockSupport.parkNanos(500000000L);
-                        deferred.set(! Thread.interrupted());
+                        deferred.set(!Thread.interrupted());
                     }
                 });
                 delivered.set(Thread.interrupted());
