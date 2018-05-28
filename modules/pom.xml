@@ -45,6 +45,21 @@
         </profile>
 
         <profile>
+            <id>jboss.threads.2.3.testsuite</id>
+            <activation>
+                <property>
+                    <name>2.3</name>
+                    <value>true</value>
+                </property>
+            </activation>
+
+            <modules>
+                <module>testcases/jdkAll/2.3</module>
+            </modules>
+
+        </profile>
+
+        <profile>
             <id>jboss.threads.2.2.testsuite</id>
             <activation>
                 <property>

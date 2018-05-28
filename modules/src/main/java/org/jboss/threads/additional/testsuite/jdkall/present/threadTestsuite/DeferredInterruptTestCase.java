@@ -31,7 +31,6 @@ import junit.framework.TestCase;
 /**
  * @author <a href="mailto:david.lloyd@redhat.com">David M. Lloyd</a>
  */
-//@apAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java","modules/testcases/jdkAll/2.2/threadTestsuite/src/main/java#2.2.2.Final"})
 public class DeferredInterruptTestCase extends TestCase {
 
     public void testDeferral() throws Exception {

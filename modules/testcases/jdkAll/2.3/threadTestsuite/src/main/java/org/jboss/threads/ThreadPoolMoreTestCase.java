@@ -31,7 +31,7 @@ import junit.framework.TestCase;
 /**
  *
  */
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java","modules/testcases/jdkAll/2.3/threadTestsuite/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java"})
 public final class ThreadPoolMoreTestCase extends TestCase {
 
     private final JBossThreadFactory threadFactory = new JBossThreadFactory(null, null, null, "test thread %p %t", null, null);
