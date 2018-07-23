@@ -33,4 +33,5 @@ Testing the 1.0.0.GA JBoss Threads Release
 
 
 # License 
-* [GNU Lesser General Public License Version 2.1](http://www.gnu.org/licenses/lgpl-2.1-standalone.html)
+* [GNU Lesser General Public License Version 2.1](http://www.gnu.org/licenses/lgpl-2.1-standalone.html) for the project
+* [Apache License 2.0](https://github.com/jbossas/jboss-threads/blob/master/LICENSE.txt) for the test sources of jboss-modules (the same license used in the [jboss-modules repo](https://github.com/jbossas/jboss-threads))
