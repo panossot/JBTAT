@@ -8,6 +8,13 @@ INNOVATION
 The innovative part of JBTAT (Known as EAT for the JBOSS Servers) is creating the test once and testing with any version of the tested software. It may be firstly applied for the JBOSS Servers, but, in general, a similar structure, can be used for creating tests about any software with multiple versions or for multiple software programs that have a part of the testsuite in common.
 
 
+
+Testing the 2.x JBoss Threads Branch
+---------------------------------------
+1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.
+2. Build and run the jboss threads additional testsuite activating the master profile (mvn clean install -D2.x).
+
+
 Testing the 2.2 JBoss Threads Branch
 ---------------------------------------
 1. Make sure that JBOSS_VERSION environment variable is set with the version of your JBoss Threads build.

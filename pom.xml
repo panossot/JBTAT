@@ -140,6 +140,20 @@
         </profile>
 
         <profile>
+            <id>jboss.threads.2.x.testsuite</id>
+            <activation>
+                <property>
+                    <name>2.x</name>
+                    <value>true</value>
+                </property>
+            </activation>
+
+            <properties>
+		<serverDir>2.x</serverDir>
+	    </properties>
+        </profile>
+
+        <profile>
             <id>jboss.threads.2.2.testsuite</id>
             <activation>
                 <property>
