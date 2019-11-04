@@ -58,6 +58,7 @@ public class EnhancedQueueExecutorTestCase extends TestCase {
         for (int i = 0; i < coreSize; i++) {
             executor.execute(new TestTask().withSleepTime(1000));
         }
+        Thread.sleep(1000*coreSize);
         assertEquals("expected: == " + coreSize + ", actual: " + executor.getPoolSize(), executor.getPoolSize(), coreSize);
         executor.shutdown();
     }
