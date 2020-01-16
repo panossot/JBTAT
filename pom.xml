@@ -79,20 +79,6 @@
                 <updatePolicy>never</updatePolicy>
             </snapshots>
         </repository>
-	<repository>
-            <id>central2</id>
-            <name>Main Apache Maven Repository</name>
-            <url>https://repo1.maven.apache.org/maven2/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </repository>
         <repository>
             <id>jboss-public-repository-group</id>
             <name>JBoss Public Repository Group</name>
@@ -114,19 +100,6 @@
             <id>central</id>
             <name>Main Apache Maven Repository</name>
             <url>https://repo.maven.apache.org/maven2/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </pluginRepository>
-	<pluginRepository>
-            <id>central2</id>
-            <name>Main Apache Maven Repository</name>
-            <url>https://repo1.maven.apache.org/maven2/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>never</updatePolicy>
