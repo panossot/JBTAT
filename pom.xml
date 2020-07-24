@@ -138,6 +138,20 @@
 		<serverDir>master</serverDir>
 	    </properties>
         </profile>
+        
+        <profile>
+            <id>jboss.threads.3.x.testsuite</id>
+            <activation>
+                <property>
+                    <name>3.x</name>
+                    <value>true</value>
+                </property>
+            </activation>
+
+            <properties>
+		<serverDir>3.x</serverDir>
+	    </properties>
+        </profile>
 
         <profile>
             <id>jboss.threads.2.x.testsuite</id>

@@ -13,7 +13,7 @@ import org.junit.Test;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/threadTestsuite/src/main/java","modules/testcases/jdkAll/3.x/threadTestsuite/src/main/java"})
 public class EnhancedQueueExecutorTest {
     private int coreSize = 3;
     private int maxSize = coreSize * 2;

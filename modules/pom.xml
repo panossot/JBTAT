@@ -43,6 +43,21 @@
             </modules>
 
         </profile>
+        
+        <profile>
+            <id>jboss.threads.3.x.testsuite</id>
+            <activation>
+                <property>
+                    <name>3.x</name>
+                    <value>true</value>
+                </property>
+            </activation>
+
+            <modules>
+                <module>testcases/jdkAll/3.x</module>
+            </modules>
+
+        </profile>
 
         <profile>
             <id>jboss.threads.2.x.testsuite</id>
